@@ -20,8 +20,8 @@ app.get('/api/articles', (req, res) => {
   res.json(infoArticles);
 });
 
-const PUERTO = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
-app.listen(PUERTO, () => {
-  console.log(`Server is listening at port: ${PUERTO}...`);      
+app.listen(PORT, () => {
+  console.log(`Server is listening at port: ${PORT}...`);      
 });
